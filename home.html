@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #logo{
+            border-radius: 50%;
+        }
+        #music{
+            border-radius: 40px;
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 70px;
+        }
+        #video{
+            border-radius: 40px;
+            margin-left: 800px;
+            margin-top: 70px;
+        }
+        #music-content{
+            position: absolute;
+            padding-left: 425px;
+            padding-top: 130px;
+            text-decoration:underline;
+            font-size: 25px;
+        }
+        #video-content{
+            padding-left: 460px;
+            position: absolute;
+            padding-top: 240px;
+            text-decoration:underline;
+            font-size: 25px;
+        }
+        #logout-btn{
+            margin-left: 1220px;
+            margin-top: -60px;
+            position: absolute;
+            width: 100px;
+            height: 40px;
+            background-color: white;
+            color: black;
+            border-radius: 10px;
+        }
+        #imglogo{
+            border-radius: 40px;
+            margin-top: 10px;
+            margin-left: 20px;     
+        }
+        #head{
+            background-color: rgba(187, 7, 172, 0.425);
+            max-width: 1376px;
+            margin-left: -10px; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="head"><img src="./IMAGES/Dt.png" id="imglogo" width="60px" height="60px"><label>DuoMedia Tech</label></h1>
+    <a href="./index.html"><input type="button" value="Logout" id="logout-btn"></a>
+
+        <p id="music-content"><--Are you Music learner </p>
+
+        <p id="video-content">Are you Movie watcher--></p>
+
+    <a href="./audio.html"><img src="./IMAGES/mu.jpg" id="music" width="400px" height="300px"></a>
+
+    <a href="./video.html"><img src="./IMAGES/video.avif" id="video" width="400px" height="300px"></a>
+    <br><br>
+</body>
+</html>

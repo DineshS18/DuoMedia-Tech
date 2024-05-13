@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+	font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+form{
+    width: 400px;
+	height: 460px;
+	background: #1c1c1c;
+    margin-bottom: 50px;
+    margin-top: 60px;
+	border-radius: 10px;
+    color: white;
+    margin-left: 475px;
+    box-shadow: white  0px 0px 1px;  
+
+}
+
+#form2{
+    width: 550px;
+	height: 610px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 405px;
+}
+
+#form3{
+    width: 550px;
+	height: 600px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 405px;
+}
+
+#login{
+    padding: 10px;
+    margin-left: 145px;
+}
+
+.user{
+    margin-left: 50px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#submit{
+    margin-left: 135px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.log a:hover{
+    background: #094b65;
+	color: #fff;
+}
+
+.log{
+    margin-left: 30px;
+}
+
+#register{
+    padding-top: 30px;
+    padding-left: 200px;
+}
+
+#signfield{
+    padding-left: 30px;
+}
+
+#signtype{
+    margin-left: 95px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#emailtype{
+    margin-left: 135px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#phonetype{
+    margin-left: 60px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#pwdtype{
+    margin-left: 100px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#conpwdtype{
+    margin-left: 30px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#cancel{
+    margin-left: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#next{
+    margin-left: 240px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#otplog{
+    padding-top: 30px;
+    padding-left: 90px;
+}
+
+#otpcon{
+    padding-left: 30px;
+}
+
+#otptype{
+    margin-left: 10px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#otpverify{
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#otpresend{
+    margin-left: 2px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#regsuccess{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#regback{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+#logsuccess{
+    margin-left: 40px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#pwdchange{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+#pwdfield{
+    padding-left: 50px;
+}
+
+#pwdretype{
+    margin-left: 30px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#pwdresend{
+    margin-left: 40px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+
+#updatepwd{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+#updatefield{
+    padding-left: 40px;
+}
+
+#updatetype{
+    margin-left: 110px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#updatetype2{
+    margin-left: 30px;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: grey;
+}
+
+#updatebtn{
+    margin-left: 40px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
